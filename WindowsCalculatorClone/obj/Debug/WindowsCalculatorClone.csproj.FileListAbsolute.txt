@@ -1,0 +1,13 @@
+C:\Users\unique\source\repos\WindowCalculator\WindowsCalculatorClone\bin\Debug\WindowsCalculatorClone.exe.config
+C:\Users\unique\source\repos\WindowCalculator\WindowsCalculatorClone\bin\Debug\WindowsCalculatorClone.exe
+C:\Users\unique\source\repos\WindowCalculator\WindowsCalculatorClone\bin\Debug\WindowsCalculatorClone.pdb
+C:\Users\unique\source\repos\WindowCalculator\WindowsCalculatorClone\obj\Debug\WindowsCalculatorClone.csprojAssemblyReference.cache
+C:\Users\unique\source\repos\WindowCalculator\WindowsCalculatorClone\obj\Debug\WindowsCalculatorClone.Properties.Resources.resources
+C:\Users\unique\source\repos\WindowCalculator\WindowsCalculatorClone\obj\Debug\WindowsCalculatorClone.csproj.GenerateResource.cache
+C:\Users\unique\source\repos\WindowCalculator\WindowsCalculatorClone\obj\Debug\WindowsCalculatorClone.csproj.CoreCompileInputs.cache
+C:\Users\unique\source\repos\WindowCalculator\WindowsCalculatorClone\obj\Debug\WindowsCalculatorClone.exe
+C:\Users\unique\source\repos\WindowCalculator\WindowsCalculatorClone\obj\Debug\WindowsCalculatorClone.pdb
+C:\Users\unique\source\repos\WindowCalculator\WindowsCalculatorClone\bin\Debug\aa\WindowsCalculatorClone.resources.dll
+C:\Users\unique\source\repos\WindowCalculator\WindowsCalculatorClone\obj\Debug\WindowsCalculatorClone.Calculator.resources
+C:\Users\unique\source\repos\WindowCalculator\WindowsCalculatorClone\obj\Debug\WindowsCalculatorClone.Calculator.aa.resources
+C:\Users\unique\source\repos\WindowCalculator\WindowsCalculatorClone\obj\Debug\aa\WindowsCalculatorClone.resources.dll
