@@ -48,13 +48,11 @@
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.button20 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -69,6 +67,7 @@
             this.button1.ForeColor = System.Drawing.SystemColors.Control;
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -95,6 +94,7 @@
             this.button3.ForeColor = System.Drawing.SystemColors.Control;
             this.button3.Name = "button3";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -122,6 +122,7 @@
             this.button5.ForeColor = System.Drawing.SystemColors.Control;
             this.button5.Name = "button5";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -135,6 +136,7 @@
             this.button6.ForeColor = System.Drawing.SystemColors.Control;
             this.button6.Name = "button6";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -148,6 +150,7 @@
             this.button7.ForeColor = System.Drawing.SystemColors.Control;
             this.button7.Name = "button7";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -161,6 +164,7 @@
             this.button8.ForeColor = System.Drawing.SystemColors.Control;
             this.button8.Name = "button8";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -174,6 +178,7 @@
             this.button9.ForeColor = System.Drawing.SystemColors.Control;
             this.button9.Name = "button9";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -187,6 +192,7 @@
             this.button10.ForeColor = System.Drawing.SystemColors.Control;
             this.button10.Name = "button10";
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
             // 
@@ -200,6 +206,7 @@
             this.button11.ForeColor = System.Drawing.SystemColors.Control;
             this.button11.Name = "button11";
             this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
@@ -213,6 +220,7 @@
             this.button12.ForeColor = System.Drawing.SystemColors.Control;
             this.button12.Name = "button12";
             this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button13
             // 
@@ -226,6 +234,7 @@
             this.button13.ForeColor = System.Drawing.SystemColors.Control;
             this.button13.Name = "button13";
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button14
             // 
@@ -239,6 +248,7 @@
             this.button14.ForeColor = System.Drawing.SystemColors.Control;
             this.button14.Name = "button14";
             this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button15
             // 
@@ -266,6 +276,7 @@
             this.button16.ForeColor = System.Drawing.SystemColors.Control;
             this.button16.Name = "button16";
             this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button17
             // 
@@ -279,6 +290,7 @@
             this.button17.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button17.Name = "button17";
             this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button18
             // 
@@ -286,12 +298,13 @@
             this.button18.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
             this.button18.FlatAppearance.BorderSize = 0;
             this.button18.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
-            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
+            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             resources.ApplyResources(this.button18, "button18");
             this.button18.ForeColor = System.Drawing.SystemColors.Control;
             this.button18.Name = "button18";
             this.button18.UseVisualStyleBackColor = false;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // button19
             // 
@@ -305,19 +318,7 @@
             this.button19.ForeColor = System.Drawing.SystemColors.Control;
             this.button19.Name = "button19";
             this.button19.UseVisualStyleBackColor = false;
-            // 
-            // button20
-            // 
-            this.button20.BackColor = System.Drawing.Color.Black;
-            this.button20.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
-            this.button20.FlatAppearance.BorderSize = 0;
-            this.button20.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
-            this.button20.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.button20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
-            resources.ApplyResources(this.button20, "button20");
-            this.button20.ForeColor = System.Drawing.SystemColors.Control;
-            this.button20.Name = "button20";
-            this.button20.UseVisualStyleBackColor = false;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // button21
             // 
@@ -331,19 +332,7 @@
             this.button21.ForeColor = System.Drawing.SystemColors.Control;
             this.button21.Name = "button21";
             this.button21.UseVisualStyleBackColor = false;
-            // 
-            // button22
-            // 
-            this.button22.BackColor = System.Drawing.Color.Black;
-            this.button22.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
-            this.button22.FlatAppearance.BorderSize = 0;
-            this.button22.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
-            this.button22.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.button22.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
-            resources.ApplyResources(this.button22, "button22");
-            this.button22.ForeColor = System.Drawing.SystemColors.Control;
-            this.button22.Name = "button22";
-            this.button22.UseVisualStyleBackColor = false;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // button23
             // 
@@ -357,20 +346,7 @@
             this.button23.ForeColor = System.Drawing.SystemColors.Control;
             this.button23.Name = "button23";
             this.button23.UseVisualStyleBackColor = false;
-            // 
-            // button24
-            // 
-            this.button24.BackColor = System.Drawing.Color.Black;
-            this.button24.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
-            this.button24.FlatAppearance.BorderSize = 0;
-            this.button24.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
-            this.button24.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.button24.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
-            resources.ApplyResources(this.button24, "button24");
-            this.button24.ForeColor = System.Drawing.SystemColors.Control;
-            this.button24.Name = "button24";
-            this.button24.UseVisualStyleBackColor = false;
-            this.button24.Click += new System.EventHandler(this.button24_Click);
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // label1
             // 
@@ -389,21 +365,33 @@
             this.label2.Tag = "";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
+            // button20
+            // 
+            this.button20.BackColor = System.Drawing.Color.Black;
+            this.button20.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.button20.FlatAppearance.BorderSize = 0;
+            this.button20.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.button20.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            resources.ApplyResources(this.button20, "button20");
+            this.button20.ForeColor = System.Drawing.SystemColors.Control;
+            this.button20.Name = "button20";
+            this.button20.UseVisualStyleBackColor = false;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
+            // 
             // Calculator
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.Controls.Add(this.button20);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button17);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button19);
-            this.Controls.Add(this.button20);
             this.Controls.Add(this.button21);
-            this.Controls.Add(this.button22);
             this.Controls.Add(this.button23);
-            this.Controls.Add(this.button24);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button11);
@@ -450,13 +438,11 @@
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button20;
     }
 }
 
